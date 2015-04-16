@@ -326,7 +326,7 @@
 	$(document).on( 'ready', function() {
 		$.ajax({
 			method: "POST",
-			url: 'http://localhost:8888/wordpress/src/asdf/',
+			url: 'http://localhost:3000/',
 			data: {
 			uniqueHash: window.ddwp.uniqueHash,
 				browser: {
