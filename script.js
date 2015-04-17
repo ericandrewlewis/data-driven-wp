@@ -326,7 +326,7 @@
 	$(document).on( 'ready', function() {
 		$.ajax({
 			method: "POST",
-			url: 'http://localhost:3000/',
+			url: 'http://109.73.225.240/',
 			data: {
 			uniqueHash: window.ddwp.uniqueHash,
 				browser: {
